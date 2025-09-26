@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp Page</title>
+    <link rel="stylesheet" href="/CLDC Game/Css/SignUpPage.css" />
+</head>
+<body>
+    <div class="SignUp-container">
+    <div class="SignUp-box">
+      <h1 class="logo">Biz<span>Desk</span></h1>
+      <h2>Create Account</h2>
+
+      <form id="signupForm">
+        <!-- User Type -->
+        <div class="input-group">
+          <label for="userType">I am a:</label>
+          <select id="userType" required>
+            <option value="">Select option</option>
+            <option value="client">Client</option>
+            <option value="provider">Service Provider</option>
+          </select>
+        </div>
+
+        <!-- Full Name -->
+        <div class="input-group">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" placeholder="Enter your full name" required />
+        </div>
+
+        <!-- Email -->
+        <div class="input-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="Enter your email" required />
+        </div>
+
+        <!-- Password -->
+        <div class="input-group">
+          <label for="password">Password</label>
+          <input type="password" id="password" placeholder="Enter your password" required />
+        </div>
+
+        <!-- Confirm Password -->
+        <div class="input-group">
+          <label for="confirmPassword">Confirm Password</label>
+          <input type="password" id="confirmPassword" placeholder="Re-enter your password" required />
+        </div>
+
+        <!-- Button -->
+        <button type="submit" class="btn">Sign Up</button>
+
+        <!-- Login Redirect -->
+        <p class="signup-text">
+          Already have an account? <a href="Loginpage.html">Login</a>
+        </p>
+      </form>
+    </div>
+  </div>
+<script src="SignUpPage.js"></script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loginpage</title>
+ <link rel="stylesheet" href="/CLDC Game/Css/LoginPage.css" />
+</head>
+<body>
+  <div class="login-container">
+    <div class="login-box">
+      <h1 class="logo">Biz<span>Desk</span></h1>
+      <h2>Login</h2>
+
+      <form id="loginForm">
+        <!-- Email -->
+        <div class="input-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="Enter your email" required />
+        </div>
+
+        <!-- Password -->
+        <div class="input-group">
+          <label for="password">Password</label>
+          <input type="password" id="password" placeholder="Enter your password" required />
+        </div>
+
+        <!-- Remember Me + Forgot Password -->
+        <div class="options">
+          <label><input type="checkbox" id="remember" /> Remember me</label>
+          <a href="#">Forgot password?</a>
+        </div>
+
+        <!-- Button -->
+        <button type="submit" class="btn">Login</button>
+
+        <!-- Signup Redirect -->
+        <p class="signup-text">
+          Don’t have an account? <a href="SignUpPage.html">Sign up</a>
+        </p>
+      </form>
+    </div>
+  </div>
+
+  <script src="Loginpage.js"></script>
+</body>
+</html>
